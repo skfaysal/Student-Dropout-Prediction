@@ -19,6 +19,13 @@
 
 <h3 align="center">Student Dropout Prediction</h3>
 
+## Project Overview
+<p align="left"> Student Dropout Prediction  predicts a student whether a student is prone to be dropped out or not.\
+  Using some certain attributes from student ERP historical data we have trained a machine learning model to classify \
+  who are at high risk of dropping out.By segment them out mentors can do their councelling accordingly and thus student \
+  retention rate can be reduced.</p>
+  
+
 ## Run Locally
 
 Clone the project
