@@ -59,7 +59,7 @@ For testing model
 ```
 
 ## Screenshots
+<a href="https://drive.google.com/uc?export=view&id=107gLF5d54kWay98hQsd02743CdylIT6K"><img src="https://drive.google.com/uc?export=view&id=107gLF5d54kWay98hQsd02743CdylIT6K" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
-![App Screenshot](https://drive.google.com/file/d/107gLF5d54kWay98hQsd02743CdylIT6K/view?usp=sharing)
-![image](https://drive.google.com/file/d/107gLF5d54kWay98hQsd02743CdylIT6K/view?usp=sharing)
- 
+
+
