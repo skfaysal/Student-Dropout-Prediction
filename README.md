@@ -61,4 +61,5 @@ For testing model
 ## Screenshots
 
 ![App Screenshot](https://drive.google.com/file/d/107gLF5d54kWay98hQsd02743CdylIT6K/view?usp=sharing)
-  
+![image](https://drive.google.com/file/d/107gLF5d54kWay98hQsd02743CdylIT6K/view?usp=sharing)
+ 
