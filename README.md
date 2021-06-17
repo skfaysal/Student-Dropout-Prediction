@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Sheikh Md. Faysal</h1>
-<h3 align="center">Machine Learning Engineer</h3>
+<h2 align="center">Hi 👋, I'm Sheikh Md. Faysal</h2>
+<h4 align="center">Machine Learning Engineer</h4>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=skfaysal&label=Profile%20views&color=0e75b6&style=flat" alt="skfaysal" /> </p>
 
@@ -17,7 +17,7 @@
 
 # Project Title
 
-## Student Dropout Prediction
+<h3 align="center">Student Dropout Prediction</h3>
 
 # Run Locally
 
