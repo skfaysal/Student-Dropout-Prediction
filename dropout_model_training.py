@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 # importing dataset
-data = pd.read_csv("C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/data.csv")
+data = pd.read_csv("./dataset/data.csv")
 
 """EDA"""
 print(data.info)
@@ -60,7 +60,7 @@ encoded_data = pd.get_dummies(data, columns=cat_cols, drop_first=True)
 # Because while predicting on new data we don't pass target variable into the model
 encoded_data_inference = encoded_data.iloc[:, :-1]
 # Saving the columns in the disk as pkl format
-filename = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/encoder.pkl'
+filename = './saved models/encoder.pkl'
 pickle.dump(encoded_data_inference.columns, open(filename, 'wb'))
 
 # Splitting the dataset into independent(x) and dependent/target(y) variable/features
@@ -76,7 +76,7 @@ x_train = sc.fit_transform(x_train)
 x_test = sc.transform(x_test)
 
 # saving the scalling object for using on new data
-filename = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/sc.pkl'
+filename = './saved models/sc.pkl'
 pickle.dump(sc, open(filename, 'wb'))
 
 """MODEL"""
@@ -131,7 +131,7 @@ pyplot.legend()
 pyplot.show()
 
 # saving the model on the disk as pkl
-filename = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/model_logreg.pkl'
+filename = './saved models/model_logreg.pkl'
 pickle.dump(logisticRegr, open(filename, 'wb'))
 
 """Random Forest"""
@@ -183,7 +183,7 @@ pyplot.legend()
 # show the plot
 pyplot.show()
 # saving the model on the disk as pkl
-filename = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/model_randomforest.pkl'
+filename = './saved models/model_randomforest.pkl'
 pickle.dump(randomforest, open(filename, 'wb'))
 
 """"Compare two model using ROC"""

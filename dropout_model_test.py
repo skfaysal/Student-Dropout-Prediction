@@ -2,18 +2,18 @@ import pickle
 import pandas as pd
 import numpy as np
 #load encoder
-enc = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/encoder.pkl'
+enc = './saved models/encoder.pkl'
 encoder = pickle.load(open(enc, 'rb'))
 
 #load scaler
-scl = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/sc.pkl'
+scl = './saved models//sc.pkl'
 scaler = pickle.load(open(scl, 'rb'))
 
 #load model
-mod = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/model_logreg.pkl'
+mod = './saved models//model_logreg.pkl'
 model = pickle.load(open(mod, 'rb'))
 
-mod1 = 'C:/Users/Administrator/Desktop/Dropout_phase2/dropout model/model_randomforest.pkl'
+mod1 = './saved models//model_randomforest.pkl'
 randomforest = pickle.load(open(mod, 'rb'))
 
 
