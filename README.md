@@ -65,7 +65,7 @@ For testing model
   python3 dropout_model_test.py
 ```
 
-#Confusion Matrix
+# Confusion Matrix
 <a href="https://drive.google.com/uc?export=view&id=107gLF5d54kWay98hQsd02743CdylIT6K"><img src="https://drive.google.com/uc?export=view&id=107gLF5d54kWay98hQsd02743CdylIT6K" width="900" height="500"></a>
 
 
